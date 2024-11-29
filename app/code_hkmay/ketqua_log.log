@@ -1,0 +1,59 @@
+2024-11-23 00:26:55,650 - INFO - \u0110ang x\u1eed l� file: All_Beauty.csv
+2024-11-23 00:27:31,581 - INFO - \u0110\u1ed9 ch�nh x�c tr�n t\u1eadp ki\u1ec3m tra: 0.8142972863507493
+2024-11-23 00:27:32,796 - INFO - Classification Report tr�n t\u1eadp ki\u1ec3m tra:
+              precision    recall  f1-score   support
+
+    Tich cuc       0.81      1.00      0.89     11567
+    Tieu cuc       0.93      0.17      0.28      3247
+
+    accuracy                           0.81     14814
+   macro avg       0.87      0.58      0.59     14814
+weighted avg       0.84      0.81      0.76     14814
+
+2024-11-23 00:27:34,364 - INFO - \u0110\u1ed9 ch�nh x�c tr�n t\u1eadp x�c nh\u1eadn: 0.8176724719859593
+2024-11-23 00:27:51,781 - INFO - K\u1ebft qu\u1ea3 \u0111\u01b0\u1ee3c l\u01b0u v�o: All_Beauty_ket_qua1.csv
+2024-11-24 17:43:59,568 - INFO - \u0110ang x\u1eed l� file: All_Beauty.csv
+2024-11-24 17:44:27,437 - INFO - \u0110\u1ed9 ch�nh x�c tr�n t\u1eadp ki\u1ec3m tra: 0.815242338328608
+2024-11-24 17:44:27,936 - INFO - Classification Report tr�n t\u1eadp ki\u1ec3m tra:
+              precision    recall  f1-score   support
+
+    Tich cuc       0.81      1.00      0.89     11567
+    Tieu cuc       0.94      0.17      0.29      3247
+
+    accuracy                           0.82     14814
+   macro avg       0.87      0.58      0.59     14814
+weighted avg       0.84      0.82      0.76     14814
+
+2024-11-24 17:44:28,491 - INFO - \u0110\u1ed9 ch�nh x�c tr�n t\u1eadp x�c nh\u1eadn: 0.817604968273255
+2024-11-24 17:44:33,960 - INFO - K\u1ebft qu\u1ea3 \u0111\u01b0\u1ee3c l\u01b0u v�o: All_Beauty_ket_qua1.csv
+2024-11-24 17:50:34,353 - INFO - \u0110ang x\u1eed l� file: All_Beauty.csv
+2024-11-24 17:51:05,942 - INFO - \u0110\u1ed9 ch�nh x�c tr�n t\u1eadp ki\u1ec3m tra: 0.815242338328608
+2024-11-24 17:51:06,590 - INFO - Classification Report tr�n t\u1eadp ki\u1ec3m tra:
+              precision    recall  f1-score   support
+
+    Tich cuc       0.81      1.00      0.89     11567
+    Tieu cuc       0.94      0.17      0.29      3247
+
+    accuracy                           0.82     14814
+   macro avg       0.87      0.58      0.59     14814
+weighted avg       0.84      0.82      0.76     14814
+
+2024-11-24 17:51:07,170 - INFO - \u0110\u1ed9 ch�nh x�c tr�n t\u1eadp x�c nh\u1eadn: 0.817604968273255
+2024-11-24 17:51:14,649 - INFO - K\u1ebft qu\u1ea3 \u0111\u01b0\u1ee3c l\u01b0u v�o: All_Beauty_ket_qua1.csv
+dung BoW và MultinomialNB
+2024-11-24 18:10:02,265 - INFO - \u0110ang x\u1eed l� file: All_Beauty.csv
+2024-11-24 18:10:02,271 - ERROR - L\u1ed7i khi \u0111\u1ecdc file CSV: 
+2024-11-24 18:11:24,464 - INFO - \u0110ang x\u1eed l� file: All_Beauty.csv
+2024-11-24 18:11:51,085 - INFO - \u0110\u1ed9 ch�nh x�c tr�n t\u1eadp ki\u1ec3m tra: 0.8363710004050223
+2024-11-24 18:11:51,572 - INFO - Classification Report tr�n t\u1eadp ki\u1ec3m tra:
+              precision    recall  f1-score   support
+
+    Tich cuc       0.86      0.95      0.90     11567
+    Tieu cuc       0.71      0.43      0.54      3247
+
+    accuracy                           0.84     14814
+   macro avg       0.78      0.69      0.72     14814
+weighted avg       0.82      0.84      0.82     14814
+
+2024-11-24 18:11:52,096 - INFO - \u0110\u1ed9 ch�nh x�c tr�n t\u1eadp x�c nh\u1eadn: 0.8356284595652761
+2024-11-24 18:11:57,188 - INFO - K\u1ebft qu\u1ea3 \u0111\u01b0\u1ee3c l\u01b0u v�o: All_Beauty_ket_qua2.csv

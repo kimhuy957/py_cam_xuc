@@ -1,0 +1,45 @@
+{% extends 'app/base.html' %}
+
+{% block main_content %}
+<form method="post" style="width: 50%; margin: 5% auto;">
+  {% csrf_token %}
+  <div class="mb-3">
+    <label for="text_camxuc" class="form-label">Nội dung</label>
+    <input type="text" class="form-control" id="text_camxuc" name="text_camxuc" placeholder="Nhập nội dung" required>
+  </div>
+  <div class="container" style="display: flex; justify-content: center; align-items: center;">
+    <button type="submit" class="btn btn-primary" style="width: 44%;">Dự đoán cảm xúc</button>
+  </div>
+</form>
+
+<!-- Hiển thị kết quả nếu có -->
+{% if result %}
+<div style="margin-top: 20px; text-align: center;">
+  <h4><strong>Nội dung đã nhập:</strong> {{ NoiDung }}</h4>
+  <h4><strong>Nội dung phỏng đoán cảm xúc:</strong> {{ result }}</h4>
+<!--  <h4>{{camxuc}}</h4>-->
+  <h4>
+    <div style="
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;">
+      <form method="post" action="{% url 'save_sentiment' %}" style="
+    margin: 10px;">
+        {% csrf_token %}
+        <input type="hidden" name="sentiment" value="like">
+        <input type="hidden" name="processed_text" value="{{ NoiDung }}">
+        <button type="submit" class="btn btn-success">👍 Like</button>
+      </form>
+      <form method="post" action="{% url 'discard_sentiment' %}" style="
+    margin: 10px;">
+        {% csrf_token %}
+        <input type="hidden" name="sentiment" value="no like">
+        <input type="hidden" name="processed_text" value="{{ NoiDung }}">
+        <button type="submit" class="btn btn-danger">👎 Unlike</button>
+      </form>
+      </div>
+
+  </h4>
+</div>
+{% endif %}
+{% endblock main_content %}
